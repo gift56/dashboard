@@ -1,5 +1,6 @@
 import React from "react";
 import { AiOutlineHome, AiOutlineUnorderedList } from "react-icons/ai";
+import { HiOutlineArchiveBox } from "react-icons/hi";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
             <AiOutlineUnorderedList />
             Orders
           </a>
-          <a href="" className="block p-2 ">
+          <a href="#products" className="block p-2 ">
+            <HiOutlineArchiveBox />
             Products
           </a>
           <a href="" className="block p-2 ">
