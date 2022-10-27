@@ -23,7 +23,7 @@ const App = () => {
             <AiOutlineInbox />
             Products
           </a>
-          <a href="" className="block p-2 ">
+          <a href="#review" className="block p-2 ">
             <AiOutlineStar />
             Reviews
           </a>
