@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineHome } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUnorderedList } from "react-icons/ai";
 
 const App = () => {
   return (
@@ -10,7 +10,8 @@ const App = () => {
             <AiOutlineHome />
             Dashboard
           </a>
-          <a href="" className="block p-2 ">
+          <a href="#order" className="block p-2 ">
+            <AiOutlineUnorderedList />
             Orders
           </a>
           <a href="" className="block p-2 ">
