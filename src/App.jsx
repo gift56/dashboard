@@ -18,7 +18,7 @@ const App = () => {
           </a>
           <a href="#order" className="block p-2 ">
             <AiOutlineUnorderedList />
-            Orders
+            <span>Orders</span>
           </a>
           <a href="#products" className="block p-2 ">
             <AiOutlineInbox />
@@ -26,11 +26,11 @@ const App = () => {
           </a>
           <a href="#review" className="block p-2 ">
             <AiOutlineStar />
-            Reviews
+            <span>Reviews</span>
           </a>
           <a href="#settings" className="block p-2 ">
             <BsGear />
-            Settings
+            <span>Settings</span>
           </a>
         </nav>
       </aside>
