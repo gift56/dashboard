@@ -14,7 +14,7 @@ const App = () => {
         <nav>
           <a href="#dashboard" className="block p-2 ">
             <AiOutlineHome />
-            Dashboard
+            <span>Dashboard</span>
           </a>
           <a href="#order" className="block p-2 ">
             <AiOutlineUnorderedList />
