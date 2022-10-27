@@ -12,23 +12,23 @@ const App = () => {
     <div className="flex gap-3 min-h-screen">
       <aside className="bg-primary text-white p-5">
         <nav>
-          <a href="#dashboard" className="block p-2">
+          <a href="#dashboard" className="p-2 flex gap-2 items-center">
             <AiOutlineHome />
             <span>Dashboard</span>
           </a>
-          <a href="#order" className="block p-2 ">
+          <a href="#order" className=" p-2 flex gap-2 items-center">
             <AiOutlineUnorderedList />
             <span>Orders</span>
           </a>
-          <a href="#products" className="block p-2 ">
+          <a href="#products" className="flex gap-2 items-center p-2 ">
             <AiOutlineInbox />
             Products
           </a>
-          <a href="#review" className="block p-2 ">
+          <a href="#review" className="flex gap-2 items-center p-2 ">
             <AiOutlineStar />
             <span>Reviews</span>
           </a>
-          <a href="#settings" className="block p-2 ">
+          <a href="#settings" className="flex gap-2 items-center p-2 ">
             <BsGear />
             <span>Settings</span>
           </a>
