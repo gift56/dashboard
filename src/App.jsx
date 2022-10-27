@@ -5,6 +5,7 @@ import {
   AiOutlineInbox,
   AiOutlineStar,
 } from "react-icons/ai";
+import { BsGear } from "react-icons/bs";
 
 const App = () => {
   return (
@@ -27,7 +28,8 @@ const App = () => {
             <AiOutlineStar />
             Reviews
           </a>
-          <a href="" className="block p-2 ">
+          <a href="#settings" className="block p-2 ">
+            <BsGear />
             Settings
           </a>
         </nav>
