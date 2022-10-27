@@ -12,7 +12,7 @@ const App = () => {
     <div className="flex gap-3 min-h-screen">
       <aside className="bg-primary text-white p-5">
         <nav>
-          <a href="#dashboard" className="block p-2 ">
+          <a href="#dashboard" className="block p-2">
             <AiOutlineHome />
             <span>Dashboard</span>
           </a>
