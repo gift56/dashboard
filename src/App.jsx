@@ -1,8 +1,12 @@
 import React from "react";
 
 const App = () => {
-  return <>
-  </>
+  return (
+    <>
+      <aside></aside>
+      <main></main>
+    </>
+  );
 };
 
 export default App;
