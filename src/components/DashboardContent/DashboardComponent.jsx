@@ -1,11 +1,11 @@
 import React from "react";
-import { BsBarChartFill } from "react-icons/bs";
+import { BsBarChartLine } from "react-icons/bs";
 
 const DashboardComponent = () => {
   return (
     <main>
-      <div className="bg-blue-400">
-        <BsBarChartFill />
+      <div className="bg-blue-300 text-primary">
+        <BsBarChartLine />
         <h2>$345</h2>
         <h3>Profit today</h3>
       </div>
