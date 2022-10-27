@@ -1,4 +1,5 @@
 import React from "react";
+import { BsBarChartFill } from "react-icons/bs";
 
 const DashboardComponent = () => {
   return (
