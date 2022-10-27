@@ -3,7 +3,7 @@ import { BsBarChartLine } from "react-icons/bs";
 
 const DashboardComponent = () => {
   return (
-    <main>
+    <main className="">
       <div className="bg-blue-300 text-primary p-5">
         <BsBarChartLine />
         <h2>$345</h2>
