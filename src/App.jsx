@@ -1,11 +1,13 @@
 import React from "react";
+import { AiOutlineHome } from "react-icons/ai";
 
 const App = () => {
   return (
     <div className="flex gap-3 min-h-screen">
       <aside className="bg-primary text-white p-5">
         <nav>
-          <a href="" className="block p-2 ">
+          <a href="#dashboard" className="block p-2 ">
+            <AiOutlineHome />
             Dashboard
           </a>
           <a href="" className="block p-2 ">
