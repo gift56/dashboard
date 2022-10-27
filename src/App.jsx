@@ -1,6 +1,10 @@
 import React from "react";
-import { AiOutlineHome, AiOutlineUnorderedList } from "react-icons/ai";
-import { HiOutlineArchiveBox } from "react-icons/hi";
+import {
+  AiOutlineHome,
+  AiOutlineUnorderedList,
+  AiOutlineInbox,
+  AiOutlineStar,
+} from "react-icons/ai";
 
 const App = () => {
   return (
@@ -16,10 +20,11 @@ const App = () => {
             Orders
           </a>
           <a href="#products" className="block p-2 ">
-            <HiOutlineArchiveBox />
+            <AiOutlineInbox />
             Products
           </a>
           <a href="" className="block p-2 ">
+            <AiOutlineStar />
             Reviews
           </a>
           <a href="" className="block p-2 ">
