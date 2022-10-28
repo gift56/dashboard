@@ -56,16 +56,16 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th className="font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               ID
             </th>
-            <th className="font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Date
             </th>
-            <th className="font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Address
             </th>
-            <th className="font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Products
             </th>
           </tr>
