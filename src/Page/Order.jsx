@@ -6,7 +6,9 @@ const Order = () => {
       <h1 className="text-primary font-bold text-2xl sm:text-3xl mb-4">Orders</h1>
       <table>
         <thead>
-          <tr></tr>
+          <tr>
+            <th></th>
+          </tr>
         </thead>
       </table>
     </div>
