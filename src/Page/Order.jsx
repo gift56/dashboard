@@ -70,19 +70,18 @@ const Order = () => {
         </thead>
         <tbody>
           {data.map(({ id, date, address, product }) => (
-            <tr>
+            <tr key={id}>
               <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                1.
+                {id}.
               </td>
               <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                2022-10-12 18:34 CET
+                {date}
               </td>
               <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                Robert Robertson ,<br />
-                1234 NW Bobcat Lane
+                {address}
               </td>
               <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                Sport Hoodie, Boxing bag, Ugly hat, Short jean
+                {product}
               </td>
             </tr>
           ))}
