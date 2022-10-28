@@ -36,10 +36,10 @@ const Sidebar = () => {
     },
   ];
   return (
-    <aside className="bg-primary text-white p-5 py-10 pr-0">
+    <aside className="bg-primary text-white p-1 sm:p-5 py-10 pr-0">
       <Link to="/" className="flex mb-6 items-center justify-center mr-2 gap-1">
         <BsShop />
-        <span>YourShop</span>
+        <span className="hidden sm:flex">YourShop</span>
       </Link>
       <nav>
         {LinksData.map(({ to, icon, name }, i) => (
@@ -49,7 +49,7 @@ const Sidebar = () => {
             key={i}
           >
             {icon}
-            <span>{name}</span>
+            <span className="hidden sm:flex">{name}</span>
           </Links>
         ))}
       </nav>
