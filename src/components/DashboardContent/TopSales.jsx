@@ -1,6 +1,10 @@
 import React from "react";
 
 const TopSales = () => {
+  const sales = [{
+    
+  }];
+
   return (
     <>
       <h2 className="text-primary font-bold">Top selling products</h2>
