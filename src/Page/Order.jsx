@@ -70,7 +70,7 @@ const Order = () => {
   const sortedData = data;
 
   function updateSorting(column){
-    
+
   }
 
   return (
@@ -81,16 +81,16 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th onClick={()=> updateSorting('id')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               ID
             </th>
-            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th onClick={()=> updateSorting('date')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Date
             </th>
-            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th onClick={()=> updateSorting('address')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Address
             </th>
-            <th className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th onClick={()=> updateSorting('product')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
               Products
             </th>
           </tr>
