@@ -17,7 +17,8 @@ const DashboardComponent = () => {
               <span>1</span>
               <img
                 src="https://cdn.shopify.com/s/files/1/0156/6146/products/PowerMinimalSportsBraREP-L-A0030MagentaPinkB4A5J-KBH3-0049_800x.jpg?v=1666103385"
-                alt=""
+                alt="iamges"
+                className="w-12"
               />
             </div>
           </div>
