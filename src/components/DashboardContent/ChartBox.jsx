@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import { useState } from "react";
 import {
   AreaChart,
@@ -10,7 +11,7 @@ import {
 } from "recharts";
 
 const ChartBox = () => {
-    const [loaded, setLoaded] = useState(false)
+  const [loaded, setLoaded] = useState(false);
   const data = [
     {
       name: "Page A",
@@ -55,6 +56,8 @@ const ChartBox = () => {
       amt: 2100,
     },
   ];
+
+  useEffect(() => {}, []);
 
   return (
     <AreaChart
