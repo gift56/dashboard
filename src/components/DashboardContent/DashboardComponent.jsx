@@ -21,8 +21,8 @@ const DashboardComponent = () => {
                 className="w-12 rounded-full h-12"
               />
               <div>
-                <span className="text-sm block text-primary leading-3">Power Minimal Sports Bra</span>
-                <span className="text-primary font-bold text-lg">$100</span>
+                <span className="text-base block text-primary leading-3">Power Minimal Sports Bra</span>
+                <span className="text-primary font-bold text-xl">$100</span>
               </div>
             </div>
           </div>
