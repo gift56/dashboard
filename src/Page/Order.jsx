@@ -116,7 +116,7 @@ const Order = () => {
             <tr key={i}>
               {Object.keys(item).map((key, i) => (
                 <td
-                  className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300"
+                  className="px-[4px] sm:px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300"
                   key={i}
                 >
                   {item[key]}
