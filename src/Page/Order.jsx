@@ -1,7 +1,8 @@
 import { useState } from "react";
 
 const Order = () => {
-  const [first, setfirst] = useState(second)
+  const [sortingData, setSortingData] = useState(0)
+
   const data = [
     {
       id: 1,
