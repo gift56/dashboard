@@ -20,15 +20,16 @@ const TopSales = () => {
     <>
       <h2 className="text-primary font-bold">Top selling products</h2>
       <div className="flex flex-col gap-4">
-        <div className="flex items-center gap-3">
-          <span className="text-gray-500 text-sm">1.</span>
-          <img src="" alt="iamges" className="w-12 rounded-full h-12" />
-          <div>
-            <span className="text-base block text-primary leading-5"></span>
-            <span className="text-primary font-bold text-xl">$</span>
+        {sales.map(({ id, img, name, price }) => (
+          <div className="flex items-center gap-3" key={id}>
+            <span className="text-gray-500 text-sm">1.</span>
+            <img src="" alt="iamges" className="w-12 rounded-full h-12" />
+            <div>
+              <span className="text-base block text-primary leading-5"></span>
+              <span className="text-primary font-bold text-xl">$</span>
+            </div>
           </div>
-        </div>
-       
+        ))}
       </div>
     </>
   );
