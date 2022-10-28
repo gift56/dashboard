@@ -6,6 +6,7 @@ const Order = () => {
       id: 1,
       date: "2022-10-12 18:34 CET",
       address: "   Robert Robertson ,1234 NW Bobcat Lane",
+      product: "Sport Hoodie, Boxing bag, Ugly hat, Short jean",
     },
   ];
 
