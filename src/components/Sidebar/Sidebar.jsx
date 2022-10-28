@@ -11,27 +11,27 @@ const Sidebar = () => {
   const LinksData = [
     {
       to: "/",
-      icon: <AiOutlineHome className="w-5 h-5"/>,
+      icon: <AiOutlineHome className="w-5 h-5" />,
       name: "Dashboard",
     },
     {
       to: "/orders",
-      icon: <AiOutlineUnorderedList className="w-5 h-5"/>,
+      icon: <AiOutlineUnorderedList className="w-5 h-5" />,
       name: "Orders",
     },
     {
       to: "/products",
-      icon: <AiOutlineInbox className="w-5 h-5"/>,
+      icon: <AiOutlineInbox className="w-5 h-5" />,
       name: "Products",
     },
     {
       to: "/reviews",
-      icon: <AiOutlineStar className="w-5 h-5"/>,
+      icon: <AiOutlineStar className="w-5 h-5" />,
       name: "Reviews",
     },
     {
       to: "/settings",
-      icon: <BsGear className="w-5 h-5"/>,
+      icon: <BsGear className="w-5 h-5" />,
       name: "Settings",
     },
   ];
@@ -41,7 +41,7 @@ const Sidebar = () => {
         <BsShop />
         <span className="hidden sm:flex">YourShop</span>
       </Link>
-      <nav>
+      <nav className="sticky top-0 left-0">
         {LinksData.map(({ to, icon, name }, i) => (
           <Links
             to={to}
