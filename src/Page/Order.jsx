@@ -69,6 +69,7 @@ const Order = () => {
           </tr>
         </thead>
         <tbody>
+          {data.map(())}
           <tr>
             <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
               1.
@@ -81,36 +82,6 @@ const Order = () => {
               1234 NW Bobcat Lane
             </td>
             <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-              Sport Hoodie, Boxing bag, Ugly hat, Short jean
-            </td>
-          </tr>
-          <tr>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-              2.
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-              2022-10-12 18:34 CET
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-              Robert Robertson ,<br />
-              1234 NW Bobcat Lane
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-              Sport Hoodie, Boxing bag, Ugly hat, Short jean
-            </td>
-          </tr>
-          <tr>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400">
-              3.
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400">
-              2022-10-12 18:34 CET
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400">
-              Robert Robertson ,<br />
-              1234 NW Bobcat Lane
-            </td>
-            <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400">
               Sport Hoodie, Boxing bag, Ugly hat, Short jean
             </td>
           </tr>
