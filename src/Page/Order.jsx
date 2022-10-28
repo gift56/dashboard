@@ -4,7 +4,7 @@ const Order = () => {
   const data = [
     {
       id: 1,
-      date:""
+      date: "2022-10-12 18:34 CET",
     },
   ];
 
