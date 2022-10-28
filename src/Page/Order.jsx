@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Order = () => {
-  const [sortingData, setSortingData] = useState();
+  const [sortingColumn, setSortingColumn] = useState("id");
   const [sortDirection, setSortDirection] = useState("ASC");
 
   const data = [
@@ -68,7 +68,7 @@ const Order = () => {
   ];
 
   function updateSorting(column) {
-    setSortDirection(column);
+    if (column === sortingColumn) setSortingColumn(column);
   }
   const sortedData = data;
 
