@@ -17,8 +17,8 @@ const Order = () => {
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>2022</td>
+            <td>1.</td>
+            <td>2022-10-12 18:34 CET</td>
             <td></td>
             <td></td>
           </tr>
