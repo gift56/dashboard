@@ -12,6 +12,12 @@ const DashboardComponent = () => {
         </div>
         <div>
             <h2 className="text-primary font-bold">Top selling products</h2>
+            <div>
+                <div>
+                    <span>1</span>
+                    <img src="" alt="" />
+                </div>
+            </div>
         </div>
       </div>
     </main>
