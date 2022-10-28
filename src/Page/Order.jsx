@@ -69,7 +69,7 @@ const Order = () => {
 
   function updateSorting(column) {
     if (column === sortingColumn) {
-      setSortDirection((prev) => (prev === "ASC" ? "ASC" : "DESC"));
+      setSortDirection((prev) => (prev === "ASC" ? "DESC" : "ASC"));
     }
     setSortingColumn(column);
   }
