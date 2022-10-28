@@ -5,6 +5,7 @@ import {
   AiOutlineStar,
 } from "react-icons/ai";
 import { BsGear, BsShop } from "react-icons/bs";
+import {} from 'react-router-dom'
 
 const Sidebar = () => {
   return (
