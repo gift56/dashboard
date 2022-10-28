@@ -17,13 +17,13 @@ const Order = () => {
         </thead>
         <tbody>
           <tr>
-            <td>1.</td>
-            <td>2022-10-12 18:34 CET</td>
-            <td>
+            <td className="">1.</td>
+            <td className="">2022-10-12 18:34 CET</td>
+            <td className="">
               Robert Robertson ,<br />
               1234 NW Bobcat Lane
             </td>
-            <td>Sport Hoodie, Boxing bag, Ugly hat, Short jean</td>
+            <td className="">Sport Hoodie, Boxing bag, Ugly hat, Short jean</td>
           </tr>
         </tbody>
       </table>
