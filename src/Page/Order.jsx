@@ -101,7 +101,11 @@ const Order = () => {
                 className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
               >
                 {columns[ck]}
-                {sortingColumn === ck ? "" : ""}
+                {sortingColumn === ck
+                  ? sortDirection === "asc"
+                    ? "v"
+                    : "^"
+                  : ""}
               </th>
             ))}
           </tr>
