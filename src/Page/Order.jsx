@@ -7,7 +7,10 @@ const Order = () => {
       <table>
         <thead>
           <tr>
-            <th></th>
+            <th>ID</th>
+            <th>Date</th>
+            <th>Address</th>
+            <th>Products</th>
           </tr>
         </thead>
       </table>
