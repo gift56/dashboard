@@ -8,6 +8,7 @@ import { BsGear, BsShop } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
 const Sidebar = () => {
+
   const active =
     "bg-white text-primary rounded-xl rounded-r-none px-4 py-2 pr-7 flex gap-2 items-center";
   const inActive = "px-4 py-2 flex gap-2 items-center";
