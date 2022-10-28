@@ -9,10 +9,10 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th className="font-medium px-[15px] py-[2px] align-top">ID</th>
-            <th className="font-medium px-[15px] py-[2px] align-top">Date</th>
-            <th className="font-medium px-[15px] py-[2px] align-top">Address</th>
-            <th className="font-medium px-[15px] py-[2px] align-top">Products</th>
+            <th className="font-bold px-[15px] py-[2px] align-top text-primary uppercase">ID</th>
+            <th className="font-bold px-[15px] py-[2px] align-top text-primary uppercase">Date</th>
+            <th className="font-bold px-[15px] py-[2px] align-top text-primary uppercase">Address</th>
+            <th className="font-bold px-[15px] py-[2px] align-top text-primary uppercase">Products</th>
           </tr>
         </thead>
         <tbody>
