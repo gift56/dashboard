@@ -88,7 +88,7 @@ const Order = () => {
   );
 
   return (
-    <div className="p-3 sm:p-5 w-full bg-white sm:my-2 sm:mr-8 sm:rounded-3xl">
+    <div className="p-3 sm:p-5 w-full bg-white sm:my-2 sm:mr-8 sm:rounded-3xl overflow-scroll sm:overflow-x-hidden">
       <h1 className="text-primary font-bold text-2xl sm:text-3xl mb-4">
         Orders
       </h1>
@@ -98,7 +98,7 @@ const Order = () => {
             {Object.keys(columns).map((ck) => (
               <th
                 onClick={() => updateSorting(ck)}
-                className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+                className="cursor-pointer font-bold  sm:px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
                 key={ck}
               >
                 {columns[ck]}
