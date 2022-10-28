@@ -4,7 +4,7 @@ import { AiOutlineInbox } from "react-icons/ai";
 
 const Boxes = () => {
   return (
-    <div className="flex  gap-3">
+    <div className="flex flex-col sm:flex-row gap-3">
       <div className="bg-blue-200 w-1/2 text-primary p-5 rounded-tl-3xl rounded-br-3xl rounded-tr-md rounded-bl-md flex items-center gap-2">
         <BsBarChartLine className="w-8 h-8" />
         <div>
