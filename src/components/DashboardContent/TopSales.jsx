@@ -47,7 +47,7 @@ const TopSales = () => {
         {sales.map(({ id, img, name, price }) => (
           <div className="flex items-center gap-3" key={id}>
             <span className="text-gray-500 text-sm">{id}.</span>
-            <img src={img} alt={name} className="w-14 rounded-full h-14" />
+            <img src={img} alt={name} className="w-14 rounded-md h-14" />
             <div>
               <span className="text-base block text-primary leading-5">
                 {name}
