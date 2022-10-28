@@ -56,7 +56,7 @@ const ChartBox = () => {
   ];
 
   return (
-    <div className="mt-5 w-full h-[70vh] flex flex-col gap-3">
+    <div className="mt-5 w-full h-[70vh] flex flex-col gap-3 items-center justify-center">
       <h2>Sales Statistics</h2>
       <ResponsiveContainer width={"100%"} height="100%">
         <AreaChart
