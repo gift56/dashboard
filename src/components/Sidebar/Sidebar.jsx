@@ -15,26 +15,26 @@ const Sidebar = () => {
         <span>YourShop</span>
       </Link>
       <nav>
-        <Links
+        <Link
           to="/"
           className="bg-white text-primary rounded-xl rounded-r-none px-4 py-2 pr-7 flex gap-2 items-center"
         >
           <AiOutlineHome />
           <span>Dashboard</span>
-        </Links>
-        <Links to="/orders" className="px-4 py-2 flex gap-2 items-center">
+        </Link>
+        <Links to="/orders" className="px-4 py-2 flex gap-2 items-center mt-3">
           <AiOutlineUnorderedList />
           <span>Orders</span>
         </Links>
-        <Links to="/products" className="px-4 py-2 flex gap-2 items-center">
+        <Links to="/products" className="px-4 py-2 flex gap-2 items-center mt-3">
           <AiOutlineInbox />
           Products
         </Links>
-        <Links to="/reviews" className="px-4 py-2 flex gap-2 items-center">
+        <Links to="/reviews" className="px-4 py-2 flex gap-2 items-center mt-3">
           <AiOutlineStar />
           <span>Reviews</span>
         </Links>
-        <Links to="/settings" className="px-4 py-2 flex gap-2 items-center">
+        <Links to="/settings" className="px-4 py-2 flex gap-2 items-center mt-3">
           <BsGear />
           <span>Settings</span>
         </Links>
