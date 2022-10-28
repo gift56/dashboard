@@ -17,13 +17,13 @@ const Order = () => {
         </thead>
         <tbody>
           <tr>
-            <td className="px-[15px] py-[2px] align-top text-sm">1.</td>
-            <td className="px-[15px] py-[2px] align-top text-sm">2022-10-12 18:34 CET</td>
-            <td className="px-[15px] py-[2px] align-top text-sm">
+            <td className="px-[15px] py-[2px] align-top text-sm leading-4">1.</td>
+            <td className="px-[15px] py-[2px] align-top text-sm leading-4">2022-10-12 18:34 CET</td>
+            <td className="px-[15px] py-[2px] align-top text-sm leading-4">
               Robert Robertson ,<br />
               1234 NW Bobcat Lane
             </td>
-            <td className="px-[15px] py-[2px] align-top text-sm">
+            <td className="px-[15px] py-[2px] align-top text-sm leading-4">
               Sport Hoodie, Boxing bag, Ugly hat, Short jean
             </td>
           </tr>
