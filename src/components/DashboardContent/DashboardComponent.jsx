@@ -9,7 +9,7 @@ const DashboardComponent = () => {
     <main className="p-5 w-full bg-white my-2 mr-8 rounded-3xl">
       <Welcome />
       <div className="flex gap-5">
-        <div>
+        <div className="w-3/5">
           <Boxes />
           <ChartBox />
         </div>
