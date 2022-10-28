@@ -103,7 +103,7 @@ const Order = () => {
               >
                 {columns[ck]}
                 {sortingColumn === ck
-                  ? sortDirection === "asc"
+                  ? sortDirection === "ASC"
                     ? "↑"
                     : "↓"
                   : ""}
