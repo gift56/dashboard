@@ -23,7 +23,7 @@ const Order = () => {
               Robert Robertson ,<br />
               1234 NW Bobcat Lane
             </td>
-            <td></td>
+            <td>Sport Hoodie, Boxing bag, Ugly hat, Short jean</td>
           </tr>
         </tbody>
       </table>
