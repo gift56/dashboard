@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const Order = () => {
   const [sortingData, setSortingData] = useState(id);
-  const [sortDirection, setSortDirection] = useState('ASC')
+  const [sortDirection, setSortDirection] = useState("ASC");
 
   const data = [
     {
@@ -69,8 +69,8 @@ const Order = () => {
 
   const sortedData = data;
 
-  function updateSorting(column){
-
+  function updateSorting(column) {
+    alert(column);
   }
 
   return (
@@ -81,16 +81,28 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th onClick={()=> updateSorting('id')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th
+              onClick={() => updateSorting("id")}
+              className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+            >
               ID
             </th>
-            <th onClick={()=> updateSorting('date')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th
+              onClick={() => updateSorting("date")}
+              className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+            >
               Date
             </th>
-            <th onClick={()=> updateSorting('address')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th
+              onClick={() => updateSorting("address")}
+              className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+            >
               Address
             </th>
-            <th onClick={()=> updateSorting('product')} className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300">
+            <th
+              onClick={() => updateSorting("product")}
+              className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+            >
               Products
             </th>
           </tr>
