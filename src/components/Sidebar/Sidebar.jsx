@@ -9,14 +9,14 @@ import { BsGear, BsShop } from "react-icons/bs";
 const Sidebar = () => {
   return (
     <aside className="bg-primary text-white p-5 py-10 pr-0">
-      <a href="" className="flex mb-6 items-center">
+      <a href="" className="flex mb-6 items-center justify-center mr-2">
         <BsShop />
         <span>YourShop</span>
       </a>
       <nav>
         <a
           href="#dashboard"
-          className="bg-white text-primary rounded-xl rounded-r-none px-4 py-2 flex gap-2 items-center"
+          className="bg-white text-primary rounded-xl rounded-r-none px-4 py-2 pr-8 flex gap-2 items-center"
         >
           <AiOutlineHome />
           <span>Dashboard</span>
