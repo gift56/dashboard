@@ -19,7 +19,10 @@ const Order = () => {
           <tr>
             <td>1.</td>
             <td>2022-10-12 18:34 CET</td>
-            <td></td>
+            <td>
+              Robert Robertson ,<br />
+              1234 NW Bobcat Lane
+            </td>
             <td></td>
           </tr>
         </tbody>
