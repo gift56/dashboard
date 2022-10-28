@@ -13,7 +13,7 @@ const DashboardComponent = () => {
           <Boxes />
           <ChartBox />
         </div>
-        <div className="w-1/4 grow flex flex-col gap-3">
+        <div className="w-full sm:w-1/4 grow flex flex-col gap-3">
           <TopSales />
         </div>
       </div>
