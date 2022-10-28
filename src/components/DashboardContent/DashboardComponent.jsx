@@ -8,7 +8,7 @@ const DashboardComponent = () => {
   return (
     <main className="p-5 w-full bg-white my-2 mr-8 rounded-3xl">
       <Welcome />
-      <div className="flex gap-5">
+      <div className="flex gap-7">
         <div className="w-3/5 grow">
           <Boxes />
           <ChartBox />
