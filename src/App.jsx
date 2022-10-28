@@ -1,6 +1,7 @@
 import React from "react";
 import DashboardComponent from "./components/DashboardContent/DashboardComponent";
 import Sidebar from "./components/Sidebar/Sidebar";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
