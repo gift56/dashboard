@@ -11,27 +11,27 @@ const Sidebar = () => {
   const LinksData = [
     {
       to: "/",
-      icon: <AiOutlineHome />,
+      icon: <AiOutlineHome className="w-5 h-5"/>,
       name: "Dashboard",
     },
     {
       to: "/orders",
-      icon: <AiOutlineUnorderedList />,
+      icon: <AiOutlineUnorderedList className="w-5 h-5"/>,
       name: "Orders",
     },
     {
       to: "/products",
-      icon: <AiOutlineInbox />,
+      icon: <AiOutlineInbox className="w-5 h-5"/>,
       name: "Products",
     },
     {
       to: "/reviews",
-      icon: <AiOutlineStar />,
+      icon: <AiOutlineStar className="w-5 h-5"/>,
       name: "Reviews",
     },
     {
       to: "/settings",
-      icon: <BsGear />,
+      icon: <BsGear className="w-5 h-5"/>,
       name: "Settings",
     },
   ];
