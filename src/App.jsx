@@ -7,6 +7,9 @@ const App = () => {
   return (
     <div className="flex min-h-screen">
       <Sidebar />
+      <Routes>
+        
+      </Routes>
       <DashboardComponent />
     </div>
   );
