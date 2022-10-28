@@ -56,7 +56,7 @@ const ChartBox = () => {
   ];
 
   return (
-    <ResponsiveContainer width={300} height="80%">
+    <ResponsiveContainer width={"100%"} height="80%">
       <AreaChart
         width={730}
         height={250}
