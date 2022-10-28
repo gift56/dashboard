@@ -36,7 +36,7 @@ const Sidebar = () => {
     },
   ];
   return (
-    <aside className="bg-primary text-white p-1 sm:p-5 py-10 sm:pr-0">
+    <aside className="bg-primary text-white p-1 pr-0 sm:p-5 py-10 sm:pr-0">
       <Link to="/" className="flex mb-6 items-center justify-center mr-2 gap-1">
         <BsShop />
         <span className="hidden sm:flex">YourShop</span>
