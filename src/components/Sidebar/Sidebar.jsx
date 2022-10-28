@@ -22,22 +22,22 @@ const Sidebar = () => {
           <AiOutlineHome />
           <span>Dashboard</span>
         </Link>
-        <a href="#order" className="px-4 py-2 flex gap-2 items-center">
+        <Link to="/orders" className="px-4 py-2 flex gap-2 items-center">
           <AiOutlineUnorderedList />
           <span>Orders</span>
-        </a>
-        <a href="#products" className="flex gap-2 items-center px-4 py-2">
+        </Link>
+        <Link to="/products" className="flex gap-2 items-center px-4 py-2">
           <AiOutlineInbox />
           Products
-        </a>
-        <a href="#review" className="flex gap-2 items-center px-4 py-2">
+        </Link>
+        <Link to="/reviews" className="flex gap-2 items-center px-4 py-2">
           <AiOutlineStar />
           <span>Reviews</span>
-        </a>
-        <a href="#settings" className="flex gap-2 items-center px-4 py-2">
+        </Link>
+        <Link to="/settings" className="flex gap-2 items-center px-4 py-2">
           <BsGear />
           <span>Settings</span>
-        </a>
+        </Link>
       </nav>
     </aside>
   );
