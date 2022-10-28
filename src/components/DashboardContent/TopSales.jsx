@@ -26,6 +26,18 @@ const TopSales = () => {
       name: "Legacy Hoodie",
       price: "48",
     },
+    {
+      id: 5,
+      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/EssentialLsSlimTeeNavyA3A5HA3A5HUBCY.A-Edit.HK_600x.jpg?v=1647042043",
+      name: "Long Sleeve T-Shirt",
+      price: "38",
+    },
+    {
+      id: 6,
+      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/ApexJacketBlackA2A6K-BBBB-0616.81_600x.jpg?v=1666202079",
+      name: "Apex Jacket",
+      price: "48",
+    },
   ];
 
   return (
