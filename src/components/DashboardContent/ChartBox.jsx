@@ -6,6 +6,7 @@ import {
   CartesianGrid,
   Tooltip,
   Area,
+  ResponsiveContainer,
 } from "recharts";
 
 const ChartBox = () => {
