@@ -99,6 +99,7 @@ const Order = () => {
               <th
                 onClick={() => updateSorting(ck)}
                 className="cursor-pointer font-bold px-[15px] py-[8px] align-top text-primary uppercase border-b border-red-300"
+                key={ck}
               >
                 {columns[ck]}
                 {sortingColumn === ck
