@@ -37,11 +37,11 @@ const Sidebar = () => {
   ];
   return (
     <aside className="bg-primary text-white p-1 pr-0 sm:p-5 py-10 sm:pr-0">
-      <Link to="/" className="flex mb-6 items-center justify-center mr-2 gap-1">
-        <BsShop />
+      <Link to="/" className="flex  mb-6 items-center justify-center sm:mr-2 gap-1 sticky top-3 left-0 z-10">
+        <BsShop className="w-5 h-5"/>
         <span className="hidden sm:flex">YourShop</span>
       </Link>
-      <nav className="sticky top-0 left-0">
+      <nav className="sticky top-[5rem] left-0">
         {LinksData.map(({ to, icon, name }, i) => (
           <Links
             to={to}
