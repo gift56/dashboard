@@ -60,8 +60,6 @@ const ChartBox = () => {
       <h2 className="font-bold text-primary text-3xl mt-6">Sales Statistics</h2>
       <ResponsiveContainer width={"100%"} height="100%">
         <AreaChart
-          width={730}
-          height={250}
           data={data}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
