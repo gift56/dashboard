@@ -44,6 +44,24 @@ const Order = () => {
       address: "   Robert Robertson ,1234 NW Bobcat Lane",
       product: "Sport Hoodie, Boxing bag, Ugly hat, Short jean",
     },
+    {
+      id: 8,
+      date: "2022-10-12 18:34 CET",
+      address: "   Robert Robertson ,1234 NW Bobcat Lane",
+      product: "Sport Hoodie, Boxing bag, Ugly hat, Short jean",
+    },
+    {
+      id: 9,
+      date: "2022-10-12 18:34 CET",
+      address: "   Robert Robertson ,1234 NW Bobcat Lane",
+      product: "Sport Hoodie, Boxing bag, Ugly hat, Short jean",
+    },
+    {
+      id: 10,
+      date: "2022-10-12 18:34 CET",
+      address: "   Robert Robertson ,1234 NW Bobcat Lane",
+      product: "Sport Hoodie, Boxing bag, Ugly hat, Short jean",
+    },
   ];
 
   const sortedData = data;
