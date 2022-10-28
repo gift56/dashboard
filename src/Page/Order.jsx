@@ -68,7 +68,7 @@ const Order = () => {
   ];
 
   function updateSorting(column) {
-    alert(column);
+    setSortDirection(column);
   }
   const sortedData = data;
 
