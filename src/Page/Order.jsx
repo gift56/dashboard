@@ -1,6 +1,7 @@
-import React from "react";
+import { useState } from "react";
 
 const Order = () => {
+  const [first, setfirst] = useState(second)
   const data = [
     {
       id: 1,
