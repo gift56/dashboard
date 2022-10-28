@@ -6,7 +6,7 @@ import Welcome from "./Welcome";
 
 const DashboardComponent = () => {
   return (
-    <main className="p-5 w-full bg-white my-2 mr-8 rounded-3xl">
+    <main className="p-3 sm:p-5 w-full bg-white sm:my-2 sm:mr-8 sm:rounded-3xl">
       <Welcome />
       <div className="flex flex-col sm:flex-row gap-7">
         <div className="w-full sm:w-3/5 grow">
