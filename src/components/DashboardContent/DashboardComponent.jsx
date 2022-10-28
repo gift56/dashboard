@@ -1,6 +1,5 @@
 import React from "react";
-import { BsBarChartLine } from "react-icons/bs";
-import { AiOutlineInbox } from "react-icons/ai";
+
 
 const DashboardComponent = () => {
   return (
