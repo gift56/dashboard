@@ -9,21 +9,21 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th className="font-medium bg-[#ddd] px-[15px] py-[2px]">ID</th>
-            <th className="font-medium bg-[#ddd] px-[15px] py-[2px]">Date</th>
-            <th className="font-medium bg-[#ddd] px-[15px] py-[2px]">Address</th>
-            <th className="font-medium bg-[#ddd] px-[15px] py-[2px]">Products</th>
+            <th className="font-medium px-[15px] py-[2px] align-top">ID</th>
+            <th className="font-medium px-[15px] py-[2px] align-top">Date</th>
+            <th className="font-medium px-[15px] py-[2px] align-top">Address</th>
+            <th className="font-medium px-[15px] py-[2px] align-top">Products</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td className="bg-[#ddd] px-[15px] py-[2px]">1.</td>
-            <td className="bg-[#ddd] px-[15px] py-[2px]">2022-10-12 18:34 CET</td>
-            <td className="bg-[#ddd] px-[15px] py-[2px]">
+            <td className="px-[15px] py-[2px] align-top">1.</td>
+            <td className="px-[15px] py-[2px] align-top">2022-10-12 18:34 CET</td>
+            <td className="px-[15px] py-[2px] align-top">
               Robert Robertson ,<br />
               1234 NW Bobcat Lane
             </td>
-            <td className="bg-[#ddd] px-[15px] py-[2px]">
+            <td className="px-[15px] py-[2px] align-top">
               Sport Hoodie, Boxing bag, Ugly hat, Short jean
             </td>
           </tr>
