@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import {
   AreaChart,
   XAxis,
@@ -9,6 +10,7 @@ import {
 } from "recharts";
 
 const ChartBox = () => {
+    const [loaded, setLoaded] = useState(false)
   const data = [
     {
       name: "Page A",
