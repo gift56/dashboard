@@ -4,11 +4,14 @@ import {
   AiOutlineInbox,
   AiOutlineStar,
 } from "react-icons/ai";
-import { BsGear } from "react-icons/bs";
+import { BsGear, BsShop } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
     <aside className="bg-primary text-white p-5 py-10 pr-0">
+      <a href="">
+        <BsShop />
+      </a>
       <nav>
         <a
           href="#dashboard"
