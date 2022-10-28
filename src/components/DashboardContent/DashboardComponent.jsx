@@ -10,7 +10,9 @@ const DashboardComponent = () => {
           <Boxes />
           <ChartBox />
         </div>
-        <div>Right</div>
+        <div>
+            <h2 className="text-primary font-bold">Top selling products</h2>
+        </div>
       </div>
     </main>
   );
