@@ -69,20 +69,16 @@ const Order = () => {
           </tr>
         </thead>
         <tbody>
-          {data.map(({ id, date, address, product }) => (
-            <tr key={id}>
-              <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                {id}.
-              </td>
-              <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                {date}
-              </td>
-              <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                {address}
-              </td>
-              <td className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300">
-                {product}
-              </td>
+          {data.map((item, i) => (
+            <tr key={i}>
+              {Object.keys(item).map((key, i) => (
+                <td
+                  className="px-[15px] py-[8px] align-top text-sm leading-4 text-gray-400 border-b border-red-300"
+                  key={i}
+                >
+                  {item[key]}
+                </td>
+              ))}
             </tr>
           ))}
         </tbody>
