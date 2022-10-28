@@ -14,6 +14,11 @@ const Sidebar = () => {
       icon: <AiOutlineHome />,
       name: "Dashboard",
     },
+    {
+      to: "/",
+      icon: <AiOutlineHome />,
+      name: "Dashboard",
+    },
   ];
   return (
     <aside className="bg-primary text-white p-5 py-10 pr-0">
