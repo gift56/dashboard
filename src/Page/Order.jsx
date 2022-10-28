@@ -72,9 +72,9 @@ const Order = () => {
     id: "ID",
     date: "Date",
     address: "Address",
+    products: "Products",
   };
 
-  
   function updateSorting(column) {
     if (column === sortingColumn) {
       setSortDirection((prev) => (prev === "ASC" ? "DESC" : "ASC"));
