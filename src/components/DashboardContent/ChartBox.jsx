@@ -1,4 +1,5 @@
 import React from "react";
+import { AreaChart } from "recharts";
 
 const ChartBox = () => {
   const data = [
