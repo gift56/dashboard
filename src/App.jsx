@@ -8,7 +8,7 @@ const App = () => {
     <div className="flex min-h-screen">
       <Sidebar />
       <Routes>
-        
+        <Route />
       </Routes>
       <DashboardComponent />
     </div>
