@@ -16,7 +16,7 @@ const DashboardComponent = () => {
           <BsBarChartLine className="w-8 h-8" />
           <div className="">
             <h2 className="text-2xl font-bold leading-4">$345</h2>
-            <h3 className="">Profit today</h3>
+            <h3 className="">Orders today</h3>
           </div>
         </div>
       </div>
