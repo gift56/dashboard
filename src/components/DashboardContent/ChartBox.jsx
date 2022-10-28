@@ -77,7 +77,7 @@ const ChartBox = () => {
           dataKey="name"
           style={{ fill: "#4538A1", fontSize: "0.95rem" }}
         />
-        <YAxis />
+        <YAxis style={{ fill: "#4538A1", fontSize: "0.95rem" }} />
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
         <Area
