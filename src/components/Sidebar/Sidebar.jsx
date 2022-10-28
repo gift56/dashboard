@@ -8,7 +8,7 @@ import { BsGear } from "react-icons/bs";
 
 const Sidebar = () => {
   return (
-    <aside className="bg-primary text-white p-5">
+    <aside className="bg-primary text-white p-5 pr-0">
       <nav>
         <a
           href="#dashboard"
