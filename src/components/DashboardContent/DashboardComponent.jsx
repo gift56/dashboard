@@ -10,7 +10,7 @@ const DashboardComponent = () => {
           <Boxes />
           <ChartBox />
         </div>
-        <div className="w-1/4 flex flex-col gap-3">
+        <div className="w-1/4 grow flex flex-col gap-3">
           <h2 className="text-primary font-bold">Top selling products</h2>
           <div>
             <div className="flex items-center gap-3">
@@ -20,6 +20,10 @@ const DashboardComponent = () => {
                 alt="iamges"
                 className="w-12 rounded-full h-12"
               />
+              <div>
+                <span className="text-sm">Power Minimal Sports Bra</span>
+                <span>$100</span>
+              </div>
             </div>
           </div>
         </div>
