@@ -16,15 +16,15 @@ const TopSales = () => {
     },
     {
       id: 3,
-      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/PowerMinimalSportsBraREP-L-A0030MagentaPinkB4A5J-KBH3-0049_800x.jpg?v=1666103385",
-      name: "Power Minimal Sports Bra",
-      price: "100",
+      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/SportPrintSsT-ShirtREP-M-A0022FluoLimeA2A9E-EBSS28.A_cbc3e86c-5185-45e6-9c77-8905905ba842_800x.jpg?v=1662468374",
+      name: "Sport T-shirt",
+      price: "32",
     },
     {
       id: 4,
-      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/PowerMinimalSportsBraREP-L-A0030MagentaPinkB4A5J-KBH3-0049_800x.jpg?v=1666103385",
-      name: "Power Minimal Sports Bra",
-      price: "100",
+      img: "https://cdn.shopify.com/s/files/1/0156/6146/products/LegacyHoodieBlack-BlackA1A8D-BBF71_800x.jpg?v=1664868183",
+      name: "Legacy Hoodie",
+      price: "48",
     },
   ];
 
