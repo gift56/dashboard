@@ -1,5 +1,12 @@
 import React from "react";
-import { AreaChart, XAxis, YAxis, CartesianGrid } from "recharts";
+import {
+  AreaChart,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Area,
+} from "recharts";
 
 const ChartBox = () => {
   const data = [
