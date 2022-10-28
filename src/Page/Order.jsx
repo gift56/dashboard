@@ -5,6 +5,7 @@ const Order = () => {
     {
       id: 1,
       date: "2022-10-12 18:34 CET",
+      address:""
     },
   ];
 
