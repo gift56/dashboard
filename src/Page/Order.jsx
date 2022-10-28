@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { sort } from "lodash";
+import { sortBy } from "lodash";
 
 const Order = () => {
   const [sortingColumn, setSortingColumn] = useState("id");
@@ -74,7 +74,7 @@ const Order = () => {
     }
     setSortingColumn(column);
   }
-  const sortedData = sort(data);
+  const sortedData = sortBy(data);
 
   return (
     <div className="p-3 sm:p-5 w-full bg-white sm:my-2 sm:mr-8 sm:rounded-3xl">
