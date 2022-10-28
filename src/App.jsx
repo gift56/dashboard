@@ -8,9 +8,8 @@ const App = () => {
     <div className="flex min-h-screen">
       <Sidebar />
       <Routes>
-        <Route />
+        <Route path="/" element={<DashboardComponent />} />
       </Routes>
-      <DashboardComponent />
     </div>
   );
 };
