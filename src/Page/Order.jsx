@@ -9,12 +9,15 @@ const Order = () => {
       <table className="w-full">
         <thead>
           <tr>
-            <th className="font-normal">ID</th>
-            <th className="font-normal">Date</th>
-            <th className="font-normal">Address</th>
-            <th className="font-normal">Products</th>
+            <th className="font-medium">ID</th>
+            <th className="font-medium">Date</th>
+            <th className="font-medium">Address</th>
+            <th className="font-medium">Products</th>
           </tr>
         </thead>
+        <tbody>
+
+        </tbody>
       </table>
     </div>
   );
