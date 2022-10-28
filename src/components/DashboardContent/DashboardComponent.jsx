@@ -5,7 +5,8 @@ import TopSales from "./TopSales";
 
 const DashboardComponent = () => {
   return (
-    <main className="p-5 w-full bg-white my-2 mr-8 rounded-3xl flex flex-col items-center">
+    <main className="p-5 w-full bg-white my-2 mr-8 rounded-3xl gap-4">
+      <h1>WelCome</h1>
       <div className="flex gap-5">
         <div>
           <Boxes />

@@ -16,7 +16,7 @@ const Boxes = () => {
         <AiOutlineInbox className="w-8 h-8" />
         <div>
           <h2 className="text-2xl font-bold leading-4">21 392</h2>
-          <h3>Monthly Order</h3>
+          <h3 className="leading-4">Monthly Order</h3>
         </div>
       </div>
     </div>
