@@ -2,6 +2,7 @@ import { useState } from "react";
 
 const Order = () => {
   const [sortingData, setSortingData] = useState(id);
+  const [sortDirection, setSortDirection] = useState('ASC')
 
   const data = [
     {
