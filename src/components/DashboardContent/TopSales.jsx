@@ -22,11 +22,13 @@ const TopSales = () => {
       <div className="flex flex-col gap-4">
         {sales.map(({ id, img, name, price }) => (
           <div className="flex items-center gap-3" key={id}>
-            <span className="text-gray-500 text-sm">1.</span>
-            <img src="" alt="iamges" className="w-12 rounded-full h-12" />
+            <span className="text-gray-500 text-sm">{id}.</span>
+            <img src={img} alt={name} className="w-12 rounded-full h-12" />
             <div>
-              <span className="text-base block text-primary leading-5"></span>
-              <span className="text-primary font-bold text-xl">$</span>
+              <span className="text-base block text-primary leading-5">
+                {name}
+              </span>
+              <span className="text-primary font-bold text-xl">${price}</span>
             </div>
           </div>
         ))}
