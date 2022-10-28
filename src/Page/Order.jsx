@@ -68,13 +68,13 @@ const Order = () => {
     },
   ];
 
-  const columns = [
-    {
-      id: "ID",
-      date:""
-    },
-  ];
+  const columns = {
+    id: "ID",
+    date: "Date",
+    address: "Address",
+  };
 
+  
   function updateSorting(column) {
     if (column === sortingColumn) {
       setSortDirection((prev) => (prev === "ASC" ? "DESC" : "ASC"));
