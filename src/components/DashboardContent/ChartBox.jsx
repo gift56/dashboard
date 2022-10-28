@@ -12,13 +12,13 @@ import {
 const ChartBox = () => {
   const data = [
     {
-      name: "Page A",
+      name: "January",
       uv: 4000,
       pv: 2400,
       amt: 2400,
     },
     {
-      name: "Page B",
+      name: "February",
       uv: 3000,
       pv: 1398,
       amt: 2210,
