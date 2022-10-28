@@ -14,7 +14,7 @@ const DashboardComponent = () => {
           </div>
         </div>
         <div className="bg-red-200 grow text-primary p-5 rounded-tr-3xl rounded-bl-3xl rounded-tl-md rounded-br-md flex items-center gap-2">
-          <AiOutlineInbox />
+          <AiOutlineInbox className="w-8 h-8" />
           <div className="">
             <h2 className="text-2xl font-bold leading-4">12</h2>
             <h3 className="">Orders today</h3>
