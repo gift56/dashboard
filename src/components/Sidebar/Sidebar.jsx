@@ -9,8 +9,9 @@ import { BsGear, BsShop } from "react-icons/bs";
 const Sidebar = () => {
   return (
     <aside className="bg-primary text-white p-5 py-10 pr-0">
-      <a href="">
+      <a href="" className="flex mb-6 items-center">
         <BsShop />
+        <span>YourShop</span>
       </a>
       <nav>
         <a
