@@ -12,7 +12,7 @@ const Sidebar = () => {
       <nav>
         <a
           href="#dashboard"
-          className="bg-white text-primary rounded-xl px-4 py-2 flex gap-2 items-center"
+          className="bg-white text-primary rounded-xl rounded-r-none px-4 py-2 flex gap-2 items-center"
         >
           <AiOutlineHome />
           <span>Dashboard</span>
