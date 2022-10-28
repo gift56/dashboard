@@ -73,7 +73,10 @@ const ChartBox = () => {
             <stop offset="95%" stopColor="#82ca9d" stopOpacity={0} />
           </linearGradient>
         </defs>
-        <XAxis dataKey="name" />
+        <XAxis
+          dataKey="name"
+          style={{ fill: "#4538A1", fontSize: "0.95rem" }}
+        />
         <YAxis />
         <CartesianGrid strokeDasharray="3 3" />
         <Tooltip />
