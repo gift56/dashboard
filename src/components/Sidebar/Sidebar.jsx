@@ -45,7 +45,7 @@ const Sidebar = () => {
         {LinksData.map(({ to, icon, name }, i) => (
           <Links
             to={to}
-            className="px-4 py-2 flex gap-2 items-center mt-3"
+            className="px-2 sm:px-4 py-2 flex gap-2 items-center mt-3"
             key={i}
           >
             {icon}
