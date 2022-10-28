@@ -5,3 +5,10 @@
 body {
     @apply bg-primary;
 }
+.active {
+    background-color: white;
+    color: #4538a1;
+    border-radius: 0.75rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
