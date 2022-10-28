@@ -68,6 +68,8 @@ const Order = () => {
     },
   ];
 
+  const columns=[]
+
   function updateSorting(column) {
     if (column === sortingColumn) {
       setSortDirection((prev) => (prev === "ASC" ? "DESC" : "ASC"));
