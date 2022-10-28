@@ -69,7 +69,7 @@ const Order = () => {
           </tr>
         </thead>
         <tbody>
-          {data.map((item, i) => (
+          {sortedData.map((item, i) => (
             <tr key={i}>
               {Object.keys(item).map((key, i) => (
                 <td
