@@ -8,6 +8,13 @@ import { BsGear, BsShop } from "react-icons/bs";
 import { NavLink as Links, Link } from "react-router-dom";
 
 const Sidebar = () => {
+  const LinksData = [
+    {
+      to: "/",
+      icon: <AiOutlineHome />,
+      name: "Dashboard",
+    },
+  ];
   return (
     <aside className="bg-primary text-white p-5 py-10 pr-0">
       <Link to="/" className="flex mb-6 items-center justify-center mr-2 gap-1">
@@ -15,18 +22,20 @@ const Sidebar = () => {
         <span>YourShop</span>
       </Link>
       <nav>
-        <Link
+        <Links
           to="/"
           className="bg-white text-primary rounded-xl rounded-r-none px-4 py-2 pr-7 flex gap-2 items-center"
         >
-          <AiOutlineHome />
-          <span>Dashboard</span>
-        </Link>
+          <span></span>
+        </Links>
         <Links to="/orders" className="px-4 py-2 flex gap-2 items-center mt-3">
           <AiOutlineUnorderedList />
           <span>Orders</span>
         </Links>
-        <Links to="/products" className="px-4 py-2 flex gap-2 items-center mt-3">
+        <Links
+          to="/products"
+          className="px-4 py-2 flex gap-2 items-center mt-3"
+        >
           <AiOutlineInbox />
           Products
         </Links>
@@ -34,7 +43,10 @@ const Sidebar = () => {
           <AiOutlineStar />
           <span>Reviews</span>
         </Links>
-        <Links to="/settings" className="px-4 py-2 flex gap-2 items-center mt-3">
+        <Links
+          to="/settings"
+          className="px-4 py-2 flex gap-2 items-center mt-3"
+        >
           <BsGear />
           <span>Settings</span>
         </Links>
