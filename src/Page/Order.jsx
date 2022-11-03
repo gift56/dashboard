@@ -111,6 +111,7 @@ const Order = () => {
             ))}
           </tr>
         </thead>
+        
         <tbody>
           {sortedData.map((item, i) => (
             <tr key={i}>
