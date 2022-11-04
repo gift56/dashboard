@@ -23,4 +23,4 @@ const Boxes = () => {
   );
 };
 
-export default Boxes;
+export default Boxes
